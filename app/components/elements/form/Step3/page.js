@@ -22,7 +22,7 @@ function Step3() {
       ) : (
         <div className='py-8 my-4 bg-black p-4 rounded-xl'>
             <Headtitle 
-                title="Combien d'étage avez-vous ?"
+                title="Combien d&apos;étage avez-vous ?"
                 text="Select one apply"
             />
             <form>
