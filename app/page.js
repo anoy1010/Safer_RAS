@@ -10,10 +10,7 @@ import SubnavBar from './components/Navbar/SubnavBar'
 export default function Home() {
   return (
     <div>
-      <Navbar/>
-      <SubnavBar/>
-      <Process />
-      <Footer/>
+      <Hpage/>
     </div>
   )
 }
