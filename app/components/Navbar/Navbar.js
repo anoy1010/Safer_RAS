@@ -14,6 +14,7 @@ const Navbar = () => {
                 src={Logo}
                 width={210}
                 height={74}
+                alt="Une belle image"
             />
         </div>
         

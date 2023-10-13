@@ -29,7 +29,7 @@ function Step3() {
               {/* Formulaire pour l'étape 1 */}
                 <div className='flex justify-center py-8'>
                     <select className="select select-bordered w-full max-w-xs bg-white text-black">
-                        <option disabled selected>Combien d'étage avez-vous ?</option>
+                        <option disabled selected>Combien d étage avez-vous ?</option>
                         <option>1 étage</option>
                         <option>duplex</option>
                         <option>triplex</option>
