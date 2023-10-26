@@ -9,4 +9,14 @@ function Headtitle({title, text}) {
   )
 }
 
-export default Headtitle
+function Headtitle1({title, text}) {
+  return (
+    <div className=' text-center py-[75px]'>
+        <h1 className='text-[#4556F5] font-semibold text-[56px]'>{title}</h1>
+        <p className=' text-blackfont-light text-[18px] px-[350px]'>{text}</p>
+    </div>
+  )
+}
+
+export default Headtitle;
+export {Headtitle1};

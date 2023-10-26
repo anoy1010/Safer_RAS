@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Ligne from '@/public/Composant1.png'
+
 
 
 export default function Subtitle({title}) {

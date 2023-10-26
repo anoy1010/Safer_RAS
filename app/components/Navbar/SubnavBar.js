@@ -1,6 +1,7 @@
 import React from 'react'
 import { BsCart3 } from 'react-icons/bs'
 import ButtonNavbar from '../elements/Button'
+ 
 
 const SubnavBar = () => {
   return (
@@ -15,11 +16,12 @@ const SubnavBar = () => {
       </div>
       <div className='flex justify-between px-[55px] '>
         <ul className='flex font-bold gap-x-[84px] '>
-          <li className='cursor:pointer hover:bg-black py-[8px] hover:text-white transition ease-in-out duration-200 w-[100px] flex items-center justify-center'>Products</li>
-          <li className='cursor:pointer hover:bg-black py-[8px] hover:text-white transition ease-in-out duration-200 w-[100px] flex items-center justify-center'>Compare</li>
-          <li className='cursor:pointer hover:bg-black py-[8px] hover:text-white transition ease-in-out duration-200 w-[100px] flex items-center justify-center'>Special</li>
-          <li className='cursor:pointer hover:bg-black py-[8px] hover:text-white transition ease-in-out duration-200 w-[100px] flex items-center justify-center'>Ressources</li>
-          <li className='cursor:pointer hover:bg-black py-[8px] hover:text-white transition ease-in-out duration-200 w-[100px] flex items-center justify-center'>Shop now</li>
+          
+          <li className='cursor:pointer  hover:bg-black py-[8px] hover:text-white transition ease-in-out duration-200 w-[100px] flex items-center justify-center' activeclassName="bg-black text-white">Products</li>
+          <li className='cursor:pointer hover:bg-black py-[8px] hover:text-white transition ease-in-out duration-200 w-[100px] flex items-center justify-center' activeclassName="bg-black text-white">Compare</li>
+          <li className='cursor:pointer hover:bg-black py-[8px] hover:text-white transition ease-in-out duration-200 w-[100px] flex items-center justify-center'activeclassName="bg-black text-white" >Special</li>
+          <li className='cursor:pointer hover:bg-black py-[8px] hover:text-white transition ease-in-out duration-200 w-[100px] flex items-center justify-center' activeclassName="bg-black text-white">Ressources</li>
+          <li className='cursor:pointer hover:bg-black py-[8px] hover:text-white transition ease-in-out duration-200 w-[100px] flex items-center justify-center' activeclassName="bg-black text-white">Shop now</li>
         </ul>
         <div className='flex gap-x-[50px]'>
           <BsCart3 className='w-[35px] h-[32px]'/>
