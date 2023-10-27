@@ -36,10 +36,11 @@ function healthpages() {
           },
       ]
   return (
-   <>
-    <section className='h-screen'>
-        <Navbar/>
-        <SubnavBar/>
+   <> 
+    <Navbar/>
+    <SubnavBar/>
+    <section className=''>
+       
         <div className='grid grid-cols-2 pl-8 place-content-start w-full h-full'>
             <div className='flex flex-col justify-center py-8 gap-y-4 items-start'>
                 <h3 className='font- text-lg uppercase'> Special Medical alert</h3>
@@ -55,12 +56,12 @@ function healthpages() {
                 </div>
             </div>
             <div>
-                <img src='secu.jpg' alt='secure'/>
+                <img className='w-full h-full' src='secu.jpg' alt='secure'/>
             </div>
         </div>
     </section>
-    <section className='mx-24 relative '>
-        <div className='grid grid-cols-5 place-items-center bg-white shadow-2xl -top-24 py-8 '>
+    <section className='mx-24 relative -top-12'>
+        <div className='grid grid-cols-5 place-items-center bg-white shadow-2xl  py-8 '>
             <div className='flex flex-col items-center'> <FontAwesomeIcon icon={faEye} className='text-6xl text-blue-600' /> <h3 className='font-bold text-lg text-blue-600'>Alert ambulance</h3> </div>
             <div className='flex flex-col items-center'> <FontAwesomeIcon icon={faEye} className='text-6xl text-blue-600' /> <h3 className='font-bold text-lg text-blue-600'>Alert ambulance</h3> </div>
             <div className='flex flex-col items-center'> <FontAwesomeIcon icon={faEye} className='text-6xl text-blue-600' /> <h3 className='font-bold text-lg text-blue-600'>Alert ambulance</h3> </div>
