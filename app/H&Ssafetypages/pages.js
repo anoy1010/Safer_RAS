@@ -54,7 +54,7 @@ function healthpages() {
                 </div>
             </div>
             <div>
-                <Img src='secu.jpg' alt='secure'/>
+                <img src='secu.jpg' alt='secure'/>
             </div>
         </div>
     </section>
@@ -78,28 +78,28 @@ function healthpages() {
                <Carousel cols={3} rows={1} gap={10} loop className='flex items-center justify-center'>
                     <Carousel.Item>
                         <div className='flex flex-col max-w-sm justify-center items-center text-center gap-y-4 py-8  rounded-3xl border shadow-2xl border-gray-300'>
-                            <Img src='objet2.png' className='w-24' alt='secure'/>
+                            <img src='objet2.png' className='w-24' alt='secure'/>
                             <h2 className=' font-semibold text-2xl'>Fall Detection pendant</h2>
                             <p className=' w-[80%]'>ADT can automatically be started after a fall even if you can't press the button on the fail detection pendant yourself. Avaible with Medical Alert Plus and On-the GO System </p>
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
                         <div className='flex flex-col max-w-sm justify-center items-center text-center gap-y-4 py-8  rounded-3xl border shadow-2xl border-gray-300'>
-                            <Img src='objet2.png' className='w-24' alt='secure'/>
+                            <img src='objet2.png' className='w-24' alt='secure'/>
                             <h2 className=' font-semibold text-2xl'>Fall Detection pendant</h2>
                             <p className=' w-[80%]'>ADT can automatically be started after a fall even if you can't press the button on the fail detection pendant yourself. Avaible with Medical Alert Plus and On-the GO System </p>
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
                         <div className='flex flex-col max-w-sm justify-center items-center text-center gap-y-4 py-8  rounded-3xl border shadow-2xl border-gray-300'>
-                            <Img src='objet2.png' className='w-24' alt='secure'/>
+                            <img src='objet2.png' className='w-24' alt='secure'/>
                             <h2 className=' font-semibold text-2xl'>Fall Detection pendant</h2>
                             <p className=' w-[80%]'>ADT can automatically be started after a fall even if you can't press the button on the fail detection pendant yourself. Avaible with Medical Alert Plus and On-the GO System </p>
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
                         <div className='flex flex-col max-w-sm justify-center items-center text-center gap-y-4 py-8  rounded-3xl border shadow-2xl border-gray-300'>
-                            <Img src='objet2.png' className='w-24' alt='secure'/>
+                            <img src='objet2.png' className='w-24' alt='secure'/>
                             <h2 className=' font-semibold text-2xl'>Fall Detection pendant</h2>
                             <p className=' w-[80%]'>ADT can automatically be started after a fall even if you can't press the button on the fail detection pendant yourself. Avaible with Medical Alert Plus and On-the GO System </p>
                         </div>
@@ -139,7 +139,7 @@ function healthpages() {
                                 </dl>
                                 </div>
                             </div>
-                            <Img
+                            <img
                                 src="secu.jpg"
                                 alt="Product screenshot"
                                 className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
@@ -162,7 +162,7 @@ function healthpages() {
         />
         <div className='mb-24 flex gap-12 justify-around items-center'>
             <div className="card card-compact w-96 bg-base-100 shadow-xl pb-12 transform transition duration-500  hover:scale-125 cursor-pointer">
-                <figure><Img src="secu.jpg" alt="secu" /></figure>
+                <figure><img src="secu.jpg" alt="secu" /></figure>
                 <div className="card-body gap-y-8">
                     <h2 className="card-title">SAFER Medical Alert Recognized with Caregiver Friendly Award</h2>
 
@@ -175,7 +175,7 @@ function healthpages() {
                 </div>
             </div>
             <div className="card card-compact w-96 bg-base-100 shadow-xl pb-12 transform transition duration-500  hover:scale-125 cursor-pointer">
-                <figure><Img src="secu.jpg" alt="secu" /></figure>
+                <figure><img src="secu.jpg" alt="secu" /></figure>
                 <div className="card-body gap-y-8">
                     <h2 className="card-title">SAFER Medical Alert Recognized with giver Friendly Award</h2>
 
@@ -188,7 +188,7 @@ function healthpages() {
                 </div>
             </div>
             <div className="card card-compact w-96 bg-base-100 shadow-xl pb-12 transform transition duration-500  hover:scale-125 cursor-pointer">
-                <figure><Img src="secu.jpg" alt="secu" /></figure>
+                <figure><img src="secu.jpg" alt="secu" /></figure>
                 <div className="card-body gap-y-8 ">
                     <h2 className="card-title">SAFER Medical Alert Recognized with Caregiver Friendly Award</h2>
 
