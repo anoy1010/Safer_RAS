@@ -2,6 +2,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar/Navbar'
 import SubnavBar from '../components/Navbar/SubnavBar'
+import Image from 'next/image'
 import Footer from '../components/footer/Footer'
 import Headtitle, { Headtitle1 } from '../components/elements/Headtitle'
 import ButtonView from '../components/elements/ButtonView'
