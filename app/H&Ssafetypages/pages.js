@@ -54,7 +54,7 @@ function healthpages() {
                 </div>
             </div>
             <div>
-                <img src='secu.jpg'/>
+                <img src='secu.jpg' alt='secure'/>
             </div>
         </div>
     </section>
@@ -78,28 +78,28 @@ function healthpages() {
                <Carousel cols={3} rows={1} gap={10} loop className='flex items-center justify-center'>
                     <Carousel.Item>
                         <div className='flex flex-col max-w-sm justify-center items-center text-center gap-y-4 py-8  rounded-3xl border shadow-2xl border-gray-300'>
-                            <img src='objet2.png' className='w-24'/>
+                            <img src='objet2.png' className='w-24' alt='secure'/>
                             <h2 className=' font-semibold text-2xl'>Fall Detection pendant</h2>
                             <p className=' w-[80%]'>ADT can automatically be started after a fall even if you can't press the button on the fail detection pendant yourself. Avaible with Medical Alert Plus and On-the GO System </p>
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
                         <div className='flex flex-col max-w-sm justify-center items-center text-center gap-y-4 py-8  rounded-3xl border shadow-2xl border-gray-300'>
-                            <img src='objet2.png' className='w-24'/>
+                            <img src='objet2.png' className='w-24' alt='secure'/>
                             <h2 className=' font-semibold text-2xl'>Fall Detection pendant</h2>
                             <p className=' w-[80%]'>ADT can automatically be started after a fall even if you can't press the button on the fail detection pendant yourself. Avaible with Medical Alert Plus and On-the GO System </p>
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
                         <div className='flex flex-col max-w-sm justify-center items-center text-center gap-y-4 py-8  rounded-3xl border shadow-2xl border-gray-300'>
-                            <img src='objet2.png' className='w-24'/>
+                            <img src='objet2.png' className='w-24' alt='secure'/>
                             <h2 className=' font-semibold text-2xl'>Fall Detection pendant</h2>
                             <p className=' w-[80%]'>ADT can automatically be started after a fall even if you can't press the button on the fail detection pendant yourself. Avaible with Medical Alert Plus and On-the GO System </p>
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
                         <div className='flex flex-col max-w-sm justify-center items-center text-center gap-y-4 py-8  rounded-3xl border shadow-2xl border-gray-300'>
-                            <img src='objet2.png' className='w-24'/>
+                            <img src='objet2.png' className='w-24' alt='secure'/>
                             <h2 className=' font-semibold text-2xl'>Fall Detection pendant</h2>
                             <p className=' w-[80%]'>ADT can automatically be started after a fall even if you can't press the button on the fail detection pendant yourself. Avaible with Medical Alert Plus and On-the GO System </p>
                         </div>
