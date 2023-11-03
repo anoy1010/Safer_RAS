@@ -134,7 +134,7 @@ function CommercialPage() {
         <section className='bg-[#187BF7] grid grid-cols-2 mx-auto px-24 items-center py-24'>
             <div className='flex justify-center px-8 flex-col items-start gap-8'>
                 <h1 className='text-5xl font-semibold text-white w-[80%]'>Essayez-nous Avant de Vous Engager : Demandez Votre Test Gratuit</h1>
-                <p className='font-light text-white w-[70%]'>Explorez nos services de sécurité privée et découvrez l'efficacité de nos solutions de pointe. Profitez d'un test gratuit pour évaluer notre expertise et notre engagement envers votre protection. Faites le premier pas vers une sécurité inégalée avec <span className='font-extrabold text-2xl animate-pulse text-black'>SAFER</span></p>
+                <p className='font-light text-white w-[70%]'>Explorez nos services de sécurité privée et découvrez l efficacité de nos solutions de pointe. Profitez d un test gratuit pour évaluer notre expertise et notre engagement envers votre protection. Faites le premier pas vers une sécurité inégalée avec <span className='font-extrabold text-2xl animate-pulse text-black'>SAFER</span></p>
                 <ButtonView text="Faire un test"/>
             </div>
             <div className="flex items-center">
@@ -171,7 +171,7 @@ function CommercialPage() {
                                             </div>
                                         </div>
                                         <div class="w-full">
-                                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sunt ratione dolor exercitationem minima quas itaque saepe quasi architecto vel! Accusantium, vero sint recusandae cum tempora nemo commodi soluta deleniti.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1"></span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sunt ratione dolor exercitationem minima quas itaque saepe quasi architecto vel! Accusantium, vero sint recusandae cum tempora nemo commodi soluta deleniti.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1"></span></p>
                                         </div>
                                     </div>
                                     <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
@@ -184,7 +184,7 @@ function CommercialPage() {
                                             </div>
                                         </div>
                                         <div class="w-full">
-                                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Dolore quod necessitatibus, labore sapiente, est, dignissimos ullam error ipsam sint quam tempora vel.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Dolore quod necessitatibus, labore sapiente, est, dignissimos ullam error ipsam sint quam tempora vel.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1"></span></p>
                                         </div>
                                     </div>
                                 </div>
@@ -199,7 +199,7 @@ function CommercialPage() {
                                             </div>
                                         </div>
                                         <div class="w-full">
-                                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, obcaecati ullam excepturi dicta error deleniti sequi.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1"></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, obcaecati ullam excepturi dicta error deleniti sequi.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1"></span></p>
                                         </div>
                                     </div>
                                     <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
@@ -212,7 +212,7 @@ function CommercialPage() {
                                             </div>
                                         </div>
                                         <div class="w-full">
-                                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto inventore voluptatum nostrum atque, corrupti, vitae esse id accusamus dignissimos neque reprehenderit natus, hic sequi itaque dicta nisi voluptatem! Culpa, iusto.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1"></span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto inventore voluptatum nostrum atque, corrupti, vitae esse id accusamus dignissimos neque reprehenderit natus, hic sequi itaque dicta nisi voluptatem! Culpa, iusto.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1"></span></p>
                                         </div>
                                     </div>
                                 </div>
@@ -240,7 +240,7 @@ function CommercialPage() {
                                             </div>
                                         </div>
                                         <div class="w-full">
-                                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem iusto, explicabo, cupiditate quas totam!<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1"></span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem iusto, explicabo, cupiditate quas totam!<span class="text-lg leading-none italic font-bold text-gray-400 ml-1"></span></p>
                                         </div>
                                     </div>
                                 </div>
