@@ -23,8 +23,8 @@ function CommercialPage() {
                         <ButtonViewDark text="lorem ipsum"/>
                    </div>
                 </div>
- !               <div>
-                    <img src='CCTV.gif' alt='b' />
+                <div>
+                    <img src='CCTV.gif' alt="image" />
                 </div>
             </div>
         </section>
@@ -41,7 +41,7 @@ function CommercialPage() {
                             
                             <div className="bg-white cursor-pointer transition hover:-translate-x-6 transform duration-300 hover:text-white  hover:bg-[#187BF7] shadow-md border border-gray-200 rounded-lg max-w-sm dark:bg-gray-800 dark:border-gray-700">
                                 <a href="">
-                                    <img className="rounded-t-lg" src="https://flowbite.com/docs/images/blog/image-1.jpg" alt="b" />
+                                    <img className="rounded-t-lg" src="https://flowbite.com/docs/images/blog/image-1.jpg" alt="image" />
                                 </a>
                                 <div class="p-5">
                                     <a href="#">
@@ -56,7 +56,7 @@ function CommercialPage() {
                             
                             <div className="bg-white cursor-pointer transition hover:-translate-x-6 transform duration-300 hover:text-white  hover:bg-[#187BF7] shadow-md border border-gray-200 rounded-lg max-w-sm dark:bg-gray-800 dark:border-gray-700">
                                 <a href="">
-                                    <img className="rounded-t-lg" src="https://flowbite.com/docs/images/blog/image-1.jpg" alt="b" />
+                                    <img className="rounded-t-lg" src="https://flowbite.com/docs/images/blog/image-1.jpg" alt="image" />
                                 </a>
                                 <div class="p-5">
                                     <a href="#">
@@ -71,7 +71,7 @@ function CommercialPage() {
                             
                             <div className="bg-white cursor-pointer transition hover:-translate-x-6 transform duration-300 hover:text-white  hover:bg-[#187BF7] shadow-md border border-gray-200 rounded-lg max-w-sm dark:bg-gray-800 dark:border-gray-700">
                                 <a href="">
-                                    <img className="rounded-t-lg" src="https://flowbite.com/docs/images/blog/image-1.jpg" alt="b" />
+                                    <img className="rounded-t-lg" src="https://flowbite.com/docs/images/blog/image-1.jpg" alt="image" />
                                 </a>
                                 <div class="p-5">
                                     <a href="#">
@@ -86,7 +86,7 @@ function CommercialPage() {
                             
                             <div className="bg-white cursor-pointer transition hover:-translate-x-6 transform duration-300 hover:text-white  hover:bg-[#187BF7] shadow-md border border-gray-200 rounded-lg max-w-sm dark:bg-gray-800 dark:border-gray-700">
                                 <a href="">
-                                    <img className="rounded-t-lg" src="https://flowbite.com/docs/images/blog/image-1.jpg" alt="b" />
+                                    <img className="rounded-t-lg" src="https://flowbite.com/docs/images/blog/image-1.jpg" alt="image" />
                                 </a>
                                 <div class="p-5">
                                     <a href="#">
@@ -101,7 +101,7 @@ function CommercialPage() {
                             
                             <div className="bg-white cursor-pointer transition hover:-translate-x-6 transform duration-300 hover:text-white  hover:bg-[#187BF7] shadow-md border border-gray-200 rounded-lg max-w-sm dark:bg-gray-800 dark:border-gray-700">
                                 <a href="">
-                                    <img className="rounded-t-lg" src="https://flowbite.com/docs/images/blog/image-1.jpg" alt="b"/>
+                                    <img className="rounded-t-lg" src="https://flowbite.com/docs/images/blog/image-1.jpg" alt="image"/>
                                 </a>
                                 <div class="p-5">
                                     <a href="#">
@@ -116,7 +116,7 @@ function CommercialPage() {
                             
                             <div className="bg-white cursor-pointer transition hover:-translate-x-6 transform duration-300 hover:text-white  hover:bg-[#187BF7] shadow-md border border-gray-200 rounded-lg max-w-sm dark:bg-gray-800 dark:border-gray-700">
                                 <a href="">
-                                    <img className="rounded-t-lg" src="https://flowbite.com/docs/images/blog/image-1.jpg" alt="b"/>
+                                    <img className="rounded-t-lg" src="https://flowbite.com/docs/images/blog/image-1.jpg" alt="image"/>
                                 </a>
                                 <div class="p-5">
                                     <a href="#">
@@ -139,7 +139,7 @@ function CommercialPage() {
             </div>
             <div className="flex items-center">
                 <div className="mx-auto  max-w-sm rounded-2xl overflow-hidden  hover:shadow-4xl transition duration-300">
-                    <img className="rounded-full" src="lamp.gif" alt="b" />
+                    <img className="rounded-full" src="lamp.gif" alt="image" />
                 </div>
             </div>
         </section>
@@ -164,7 +164,7 @@ function CommercialPage() {
                                     <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
                                         <div class="w-full flex mb-4 items-center">
                                             <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
-                                                <img src="https://i.pravatar.cc/100?img=1" alt="c"/>
+                                                <img src="https://i.pravatar.cc/100?img=1" alt="image"/>
                                             </div>
                                             <div class="flex-grow pl-3">
                                                 <h6 class="font-bold text-sm uppercase text-gray-600">Kenzie Edgar.</h6>
@@ -177,7 +177,7 @@ function CommercialPage() {
                                     <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
                                         <div class="w-full flex mb-4 items-center">
                                             <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
-                                                <img src="https://i.pravatar.cc/100?img=2" alt=""/>
+                                                <img src="https://i.pravatar.cc/100?img=2" alt="image"/>
                                             </div>
                                             <div class="flex-grow pl-3">
                                                 <h6 class="font-bold text-sm uppercase text-gray-600">Stevie Tifft.</h6>
@@ -192,7 +192,7 @@ function CommercialPage() {
                                     <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
                                         <div class="w-full flex mb-4 items-center">
                                             <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
-                                                <img src="https://i.pravatar.cc/100?img=3" alt=""/>
+                                                <img src="https://i.pravatar.cc/100?img=3" alt="image"/>
                                             </div>
                                             <div class="flex-grow pl-3">
                                                 <h6 class="font-bold text-sm uppercase text-gray-600">Tommie Ewart.</h6>
@@ -205,7 +205,7 @@ function CommercialPage() {
                                     <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
                                         <div class="w-full flex mb-4 items-center">
                                             <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
-                                                <img src="https://i.pravatar.cc/100?img=4" alt=""/>
+                                                <img src="https://i.pravatar.cc/100?img=4" alt="image"/>
                                             </div>
                                             <div class="flex-grow pl-3">
                                                 <h6 class="font-bold text-sm uppercase text-gray-600">Charlie Howse.</h6>
@@ -220,7 +220,7 @@ function CommercialPage() {
                                     <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
                                         <div class="w-full flex mb-4 items-center">
                                             <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
-                                                <img src="https://i.pravatar.cc/100?img=5" alt=""/>
+                                                <img src="https://i.pravatar.cc/100?img=5" alt="image"/>
                                             </div>
                                             <div class="flex-grow pl-3">
                                                 <h6 class="font-bold text-sm uppercase text-gray-600">Nevada Herbertson.</h6>
@@ -233,7 +233,7 @@ function CommercialPage() {
                                     <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
                                         <div class="w-full flex mb-4 items-center">
                                             <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
-                                                <img src="https://i.pravatar.cc/100?img=6" alt="" />
+                                                <img src="https://i.pravatar.cc/100?img=6" alt="image" />
                                             </div>
                                             <div class="flex-grow pl-3">
                                                 <h6 class="font-bold text-sm uppercase text-gray-600">Kris Stanton.</h6>
@@ -253,7 +253,7 @@ function CommercialPage() {
                 <div class="flex items-end justify-end fixed bottom-0 right-0 mb-4 mr-4 z-10">
                     <div>
                         <a title="Buy me a beer" href="https://www.buymeacoffee.com/scottwindon" target="_blank" class="block w-16 h-16 rounded-full transition-all shadow hover:shadow-lg transform hover:scale-110 hover:rotate-12">
-                            <img class="object-cover object-center w-full h-full rounded-full" src="https://i.pinimg.com/originals/60/fd/e8/60fde811b6be57094e0abc69d9c2622a.jpg" alt="" />
+                            <img class="object-cover object-center w-full h-full rounded-full" src="https://i.pinimg.com/originals/60/fd/e8/60fde811b6be57094e0abc69d9c2622a.jpg" alt="image" />
                         </a>
                     </div>
                 </div>

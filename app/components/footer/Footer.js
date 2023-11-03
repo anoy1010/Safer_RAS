@@ -12,6 +12,7 @@ function Footer() {
                     src={logoblack}
                     width={250}
                     height={108}
+                    alt='Safer'
                 />
                 <p className='text-xl font-semibold flex justify-end'>BE Safe, Be Smart</p>
             </div>
