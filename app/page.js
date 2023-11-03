@@ -7,13 +7,14 @@ import Footer from './components/footer/Footer'
 import Process from './components/elements/form/process/page'
 import SubnavBar from './components/Navbar/SubnavBar'
 import Error from '@/app/errorpages/page'
+import CommercialPage from './Compages/page'
 
 
 export default function Home() {
   return (
     <div>
       
-      <Error/>
+      <CommercialPage/>
     </div>
   )
 }
