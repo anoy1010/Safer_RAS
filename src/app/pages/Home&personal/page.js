@@ -24,7 +24,7 @@ import Footer from '@/Comps/Footer'
 
 import Loader from '@/Comps/Loader'
 
-function acceuil() {
+function Acceuil() {
 
 
   const ref = useRef(null);
@@ -746,4 +746,4 @@ function acceuil() {
 }
 
 
-export default acceuil 
+export default Acceuil 

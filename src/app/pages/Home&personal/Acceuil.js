@@ -21,7 +21,7 @@ import { motion, AnimatePresence, useInView,useAnimation } from "framer-motion"
 
 
 
-function acceuil() {
+function Acceuil() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
@@ -718,4 +718,4 @@ function acceuil() {
   )
 }
 
-export default acceuil 
+export default Acceuil 

@@ -269,7 +269,7 @@ function Smallbusiness() {
 
             </div>
             <div className='py-24'>
-                <ButtonView><p>Plus d'option</p></ButtonView>
+                <ButtonView><p>Plus d&apos;option</p></ButtonView>
             </div>
         </section>
         <section className='pb-32'> 

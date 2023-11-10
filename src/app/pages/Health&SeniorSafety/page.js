@@ -19,7 +19,7 @@ import { SlideTwo } from '@/Comps/animation/slideOne'
 import SlideOne from '@/Comps/animation/slideOne'
 import Link from 'next/link'
 
-function health() {
+function Health() {
 
     const [loading, setLoading] = useState(true); 
     useEffect(() => {
@@ -273,4 +273,4 @@ function health() {
   )
 }
 
-export default health
+export default Health

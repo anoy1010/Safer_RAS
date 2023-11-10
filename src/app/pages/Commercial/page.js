@@ -30,7 +30,7 @@ import { SlideTwo } from '@/Comps/animation/slideOne'
 import SlideOne from '@/Comps/animation/slideOne'
 import Link from 'next/link'
 
-function commercial() {
+function Commercial() {
     const [loading, setLoading] = useState(true); 
   useEffect(() => {
     // Simulez un chargement asynchrone (par exemple, une requête à un serveur)
@@ -321,4 +321,4 @@ function commercial() {
     )
   }
   
-  export default commercial
+  export default Commercial
