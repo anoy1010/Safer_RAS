@@ -34,7 +34,7 @@ const ShoppingCart = ({ cart, removeFromCart }) => {
   );
 };
 
-function page  () {
+function Cart  () {
   const [products, setProducts] = useState([
     { id: 1, name: 'Produit 1', price: 10 },
     { id: 2, name: 'Produit 2', price: 15 },
@@ -60,4 +60,4 @@ function page  () {
   );
 };
 
-export default page;
+export default Cart;

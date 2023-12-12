@@ -5,7 +5,7 @@ import Image from 'next/image'
 import { FaHeart, FaWallet } from "react-icons/fa";
 import { motion, AnimatePresence } from 'framer-motion';
 
-function page() {
+function Products() {
     const [images, setImages] = useState( {
         img1:"https://media.adeo.com/marketplace/LMFR/82800343/db50ec75-d783-4036-ac39-9a07f92541ba.jpeg?width=3000&height=3000&format=jpg&quality=80&fit=bounds",
         img2:"https://m.media-amazon.com/images/I/712PtgFi3bL.jpg",
@@ -150,7 +150,7 @@ function page() {
                         >
 
                         <p className="text-sm w-[70%] text-gray-500 dark:text-gray-400">
-                            This is some placeholder content the Profile tab's associated content. Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling.
+                            This is some placeholder content the Profile tab&aposs associated content. Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling.
                         </p>
                         </motion.div>
                     </AnimatePresence>
@@ -185,4 +185,4 @@ function page() {
   )
 }
 
-export default page
+export default Product
