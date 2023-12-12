@@ -62,10 +62,11 @@ function Footer() {
                 </ul>
             </div>
         </div>
-        <p className='text-center text-md font-semibold pt-[125px] pb-8'>© 2023 ADT. All rights reserved. The product/service names listed in this document are marks and/or registered marks of their respective owners and used under license. Unauthorized use strictly prohibited. Google and Nest Doorbell are trademarks of Google LLC.
+        <p className='text-center text-md font-semibold pt-[125px] pb-8'>© 2023 ADT. All rights reserved. The product/service names listed in this document are marks and/or registered marks of their respective owners and used under license. Unauthorized use strictly prohibited. Ptoducted by <span className='text-xl font-bold uppercase '>Kognitiv</span>.
         </p>
     </footer>
   )
 }
 
 export default Footer
+

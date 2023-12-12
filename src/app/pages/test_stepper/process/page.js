@@ -12,10 +12,32 @@ import ButtonViewDark from '@/Comps/elem/buttonViewDark';
 
 
 function Process() {
+
+
+  
+  const [step1Choices, setStep1Choices] = useState({
+    userType: '', // Ajoutez d'autres choix du Step 1 si nécessaire
+  });
+
   const [currentStep, setCurrentStep] = useState(1);
 
   const nextStep = () => {
     setCurrentStep(currentStep + 1);
+    if (currentStep === 1) {
+      // Vérifiez les choix faits au Step 1
+      const { userType } = step1Choices;
+
+      // Déterminez si l'utilisateur doit passer au Step 2 ou directement au Step 3
+      const shouldGoToStep2 = userType === 'Particulier' || userType === 'Autre';
+
+      if (shouldGoToStep2) {
+        setCurrentStep(2);
+      } else {
+        setCurrentStep(3);
+      }
+    } else {
+      setCurrentStep(currentStep + 1);
+    }
   };
 
   const previousStep = () => {
@@ -83,3 +105,5 @@ function Process() {
 }
 
 export default Process;
+
+
