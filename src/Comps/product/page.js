@@ -185,4 +185,4 @@ function Products() {
   )
 }
 
-export default Product
+export default Products

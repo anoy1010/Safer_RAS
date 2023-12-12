@@ -37,7 +37,7 @@ function Acceuil() {
     // Simulez un chargement asynchrone (par exemple, une requête à un serveur)
     setTimeout(() => {
       setLoading(false);
-    }, 3000); // Chargez pendant 3 secondes (à adapter selon vos besoins)
+    }, 6000); // Chargez pendant 3 secondes (à adapter selon vos besoins)
   }, []);
 
   useEffect(() => {
