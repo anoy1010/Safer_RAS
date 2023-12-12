@@ -5,11 +5,12 @@ import Link from 'next/link'
 import Acceuil from '@/app/pages/Home&personal/page'
 import Product from '@/Comps/product/page'
 import Cart from '@/Comps/cart/page'
+import Errorpage from './pages/Error&page/page'
 
 export default function Home() {
   return (
     <>
-       <Acceuil/>
+       <Errorpage/>
     </>
   )
 }
