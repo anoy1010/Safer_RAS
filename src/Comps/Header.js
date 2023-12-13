@@ -15,8 +15,8 @@ import ButtonTap from '@/Comps/animation/buttonTap'
 function Navbar () {
     return (
         <>
-            <div className='navbar px-[53px] bg-black text-white '>
-                <div className='navbar-start'> 
+            <div className='navbar px-[24px] lg:px-[56px] max-lg:gap-8 bg-black text-white  md:flex md:gap-16'>
+                <div className='navbar-start w-auto'> 
                     <Image 
                         src={Logo}
                         width={210}
@@ -25,26 +25,26 @@ function Navbar () {
                     />
                 </div>
                 
-                <div className='navbar-end hidden md:flex gap-16 '>
-                    <div className='flex gap-2 items-center'> 
+                <div className='navbar-end  w-2/3 hidden md:flex lg:gap-16 max-lg:gap-8 sm:flex sm:gap-8 sm:flex-basis-[36px] '>
+                    <div className='flex gap-1 items-center w-1/3'> 
                         <FaPhoneAlt/> 
-                        <div className=''>
-                            <h2>+ 225 0750 007 007</h2>
+                        <div className='max-lg:flex flex-col '>
+                            <h2 className='sm:text-[12px] lg:text-xl '>+ 225 0750 007 007</h2>
+                            <h4 className='font-thin'>call center</h4>
+                        </div>
+                    </div>
+                    <div className='flex gap-1 items-center ww-1/3'> 
+                        <FaPhoneAlt/> 
+                        <div className='max-lg:flex flex-col'>
+                            <h2 className='sm:text-[12px] lg:text-xl'>+ 225  0715 37 37 37</h2>
                             <h4 className='font-thin '>call center</h4>
                         </div>
                     </div>
-                    <div className='flex gap-2 items-center'> 
-                        <FaPhoneAlt/> 
-                        <div className=''>
-                            <h2>+ 225 0715 37 37 37</h2>
-                            <h4 className='font-thin '>call center</h4>
-                        </div>
-                    </div>
-                    <div className='flex gap-2 items-center'> 
+                    <div className='flex gap-1 items-center'> 
                         <AiFillMail /> 
-                        <div className=''>
-                            <h2>Info@safer.ci</h2>
-                            <h4 className='font-thin '>email</h4>
+                        <div className='max-lg:flex flex-col'>
+                            <h2 className='sm:text-[14px] lg:text-xl'>Info@safer.ci</h2>
+                            <h4 className='font-thin'>email</h4>
                         </div>
                     </div>
 
