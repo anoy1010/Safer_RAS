@@ -10,8 +10,7 @@ import Errorpage from './pages/Errorpage/page'
 export default function Home() {
   return (
     <>
-      
-       <Errorpage/>
+       <Acceuil/>
     </>
   )
 }
