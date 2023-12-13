@@ -7,6 +7,7 @@ import { BsCart3 } from 'react-icons/bs'
 import { FaPhoneAlt } from 'react-icons/fa'
 import Link from 'next/link'
 import ButtonNavbar from '@/Comps/elem/Button'
+import { AiFillMail } from "react-icons/ai"
 import {motion} from 'framer-motion'
 
 import ButtonTap from '@/Comps/animation/buttonTap'
@@ -28,22 +29,22 @@ function Navbar () {
                     <div className='flex gap-2 items-center'> 
                         <FaPhoneAlt/> 
                         <div className=''>
-                            <h2>+ 225 0707 0707 07</h2>
+                            <h2>+ 225 0750 007 007</h2>
                             <h4 className='font-thin '>call center</h4>
                         </div>
                     </div>
                     <div className='flex gap-2 items-center'> 
                         <FaPhoneAlt/> 
                         <div className=''>
-                            <h2>+ 225 0707 0707 07</h2>
+                            <h2>+ 225 0715 37 37 37</h2>
                             <h4 className='font-thin '>call center</h4>
                         </div>
                     </div>
                     <div className='flex gap-2 items-center'> 
-                        <FaPhoneAlt/> 
+                        <AiFillMail /> 
                         <div className=''>
-                            <h2>+ 225 0707 0707 07</h2>
-                            <h4 className='font-thin '>call center</h4>
+                            <h2>Info@safer.ci</h2>
+                            <h4 className='font-thin '>email</h4>
                         </div>
                     </div>
 
@@ -124,4 +125,5 @@ function Header() {
   )
 }
 
-export default Header
+export default Header;
+export  {Navbar}; 
