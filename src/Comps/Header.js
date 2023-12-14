@@ -46,7 +46,7 @@ function Navbar () {
                             <h2 className='sm:text-[14px] lg:text-xl'>Info@safer.ci</h2>
                             <h4 className='font-thin'>email</h4>
                         </div>
-                    </div>
+                    </div>  
 
                 </div>
             </div>
