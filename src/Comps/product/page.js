@@ -176,7 +176,7 @@ function Products() {
                     aria-labelledby={`${activeTab}-tab`}
                   >
                     <p className="text-sm w-[70%] text-gray-500 dark:text-gray-400">
-                      This is some placeholder content the Profile tab&aposs
+                      This is some placeholder content the Profile 
                       associated content. Clicking another tab will toggle the
                       visibility of this one for the next. The tab JavaScript
                       swaps classes to control the content visibility and
@@ -259,7 +259,7 @@ function Products() {
           </button>
         </div>
         <div className="py-8">
-          <h1 className="text-4xl font-bold text-center">D'autres produits</h1>
+          <h1 className="text-4xl font-bold text-center">D`&apos;`autres produits</h1>
           <h4 className="text-center mb-8">
             nos produits sont d'une qualité inégalée venez et vous verrez
           </h4>

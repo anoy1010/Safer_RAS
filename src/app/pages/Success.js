@@ -8,7 +8,7 @@ const Success = () => {
             <Wrapper>
                 <div className="max-w-[600px] rounded-lg p-5 border border-black mx-auto flex flex-col">
                     <div className="text-2xl font-bold">
-                        Merci d'avoir acheté chez nous!
+                        Merci d`&apos;`avoir acheté chez nous!
                     </div>
                     <div className="text-lg font-bold mt-2">
                         Votre commande a été passée avec succès.
