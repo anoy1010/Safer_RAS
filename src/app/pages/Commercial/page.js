@@ -2,8 +2,6 @@
 
 import React, {useRef, useEffect, useState} from 'react'
 import Carousel from 'better-react-carousel'
-import Header from '@/Comps/Header'
-import Footer from '@/Comps/Footer'
 import HeroScale from '@/Comps/animation/heroScale'
 import { HeroScale1 } from '@/Comps/animation/heroScale'
 import Image from 'next/image'
@@ -15,8 +13,6 @@ import ButtonView from '@/Comps/elem/ButtonView'
 import ButtonViewDark from '@/Comps/elem/buttonViewDark'
 
 import Headtitle, { Headtitle1, Headtitle2 } from '@/Comps/elem/Headtitle'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEye, faFlagCheckered, faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
 import CardSlideYview from '@/Comps/animation/cardSlideY'
 import CardSlide from '@/Comps/animation/cardSlideY'
@@ -43,7 +39,6 @@ function Commercial() {
         <Loader />
       ) : (
          <div>
-         <Header/>
           <section className='bg-[#187BF7]'>
               <div className='grid grid-cols-2 py-8 px-24'>
                   <div className='py-24 flex  px-8 mx-auto flex-col justify-center items-start '>
@@ -313,8 +308,6 @@ function Commercial() {
                   </div>
               </div>
           </section>
-  
-          <Footer/>
          </div>
          )}
       </>

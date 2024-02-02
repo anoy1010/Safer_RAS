@@ -18,8 +18,6 @@ import {BsCheck2} from 'react-icons/bs'
 
 
 import { motion, AnimatePresence, useInView,useAnimation } from "framer-motion"
-import Header from '@/Comps/Header'
-import Footer from '@/Comps/Footer'
 
 
 import Loader from '@/Comps/Loader'
@@ -37,7 +35,7 @@ function Acceuil() {
     // Simulez un chargement asynchrone (par exemple, une requête à un serveur)
     setTimeout(() => {
       setLoading(false);
-    }, 6000); // Chargez pendant 3 secondes (à adapter selon vos besoins)
+    }, 3000); // Chargez pendant 3 secondes (à adapter selon vos besoins)
   }, []);
 
   useEffect(() => {
@@ -86,7 +84,6 @@ function Acceuil() {
       <Loader />
     ) : (
     <AnimatePresence>
-      <Header/>
         <section className='bg-black h-screen text-white px-[124px] gap-x-4 flex justify-between items-center'>
         
             <motion.div
@@ -736,8 +733,7 @@ function Acceuil() {
                           </Link>
                       </div>
                   </div>
-        </section>
-        <Footer/>
+        </section> 
         </AnimatePresence>
       )}
     </>

@@ -2,8 +2,7 @@
 
 import React, {useRef, useEffect, useState} from 'react'
 import Carousel from 'better-react-carousel'
-import Header from '@/Comps/Header'
-import Footer from '@/Comps/Footer'
+
 
 import ButtonView from '@/Comps/elem/ButtonView'
 import Headtitle, { Headtitle1 } from '@/Comps/elem/Headtitle'
@@ -49,8 +48,6 @@ function Smallbusiness() {
         <Loader />
       ) : (
         <div>
-        <Header/>
-        
         <section className=''>
             <div className='flex flex-col h-[500px] w-full py-12 bg-black ' >
                 
@@ -379,8 +376,6 @@ function Smallbusiness() {
 
             </div>
         </section>
-
-        <Footer/>
         </div>
         )}
     </>
