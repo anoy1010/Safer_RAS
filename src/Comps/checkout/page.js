@@ -6,7 +6,7 @@ import { FaMobileAlt } from "react-icons/fa";
 import RelatedProduct from '../RelatedProduct';
 
 export default async function Chekout() {
-  const fetchedOrders = await getOrdersByEmail(user?.emailAddresses[0]?.emailAddress);
+  
   return (
     <>
         <div className='py-12'>

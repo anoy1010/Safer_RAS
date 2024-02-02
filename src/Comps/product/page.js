@@ -255,13 +255,13 @@ function Products() {
             className="text-black ring-gray-600 ring-1 hover:bg-gray-800 hover:text-white transition ease-in-out duration-300 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium  text-sm px-12 py-2.5 text-center inline-flex items-center me-2 dark:bg-inigo-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800 "
             type=""
           >
-            Terminer l'achat <IoIosArrowForward className="w-4 h-4 me-2" />
+            Terminer l`&apos;`achat <IoIosArrowForward className="w-4 h-4 me-2" />
           </button>
         </div>
         <div className="py-8">
           <h1 className="text-4xl font-bold text-center">D`&apos;`autres produits</h1>
           <h4 className="text-center mb-8">
-            nos produits sont d'une qualité inégalée venez et vous verrez
+            nos produits sont d`&apos;`une qualité inégalée venez et vous verrez
           </h4>
           <div className="px-8 ">
             <Carousel cols={3} rows={1} gap={16} loop>
