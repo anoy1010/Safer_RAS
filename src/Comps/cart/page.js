@@ -11,7 +11,7 @@ const Cart = () => {
       <Wrapper>
         <div className="text-center max-w-[800px] mx-auto mt-8 md:mt-0">
           <div className="text-lg md:text-2xl mb-3 font-semibold leading-tight">
-            Panier d'achat
+            Panier d&apos;chat
           </div>
         </div>
         <div className="flex flex-col lg:flex-row gap-12 py-10">
@@ -58,7 +58,7 @@ const Cart = () => {
           />
           <span className="text-xl font-bold mt-4">Mon panier est vide</span>
           <span className="text-center mt-4">
-            En dirait que vous n'avez rien ajouté à votre panier. <br /> Allez-y
+            En dirait que vous n&apos;avez rien ajouté à votre panier. <br /> Allez-y
             et explorez les produits.
           </span>
           <div className="flex justify-center items-center py-8 px-2 ">
