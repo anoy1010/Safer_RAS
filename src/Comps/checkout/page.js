@@ -25,7 +25,7 @@ export default async function Chekout() {
                         </tr>
                       </thead>
                       <tbody>
-                        {fectchedOrders.map((order) => (
+                        
                           <tr>
                           <td className="border-b w-48 border-gray-300 py-2">{order.name}</td>
                           <td className="border-b w-24  px-8 text-center border-gray-300 py-2">{order.qty}</td>
@@ -33,9 +33,9 @@ export default async function Chekout() {
                           <td className="border-b w-24  px-8 text-center border-gray-300 py-2"><MdOutlineCancel className='text-gray-500 w-5 h-5 me-2'/></td>
 
                         </tr>
-                        ))
+                        
 
-                        }
+                        
                         
                       </tbody>
                       <tfoot>
