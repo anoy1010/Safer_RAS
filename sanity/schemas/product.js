@@ -1,4 +1,4 @@
-export const product = {
+const product = {
     name: 'product',
     title: 'Product',
     type: 'document',
@@ -39,3 +39,4 @@ export const product = {
     ]
 
 }
+export default product;
