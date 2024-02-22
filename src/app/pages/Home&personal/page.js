@@ -268,7 +268,7 @@ function Acceuil() {
               >
                 <div className="flex flex-col gap-y-4">
                   <div className="flex justify-start items-center p-4">
-                    <Image src="/telespectateur.png" width={80} height={80} />
+                    <Image src="/telespectateur.png" width={80} height={80} alt="telespecctateur"/>
                   </div>
                   <div className="text-white flex flex-col gap-y-4 w-[200px]">
                     <h2 className="text-2xl font-bold">Surveillance</h2>
@@ -525,7 +525,7 @@ function Acceuil() {
                               damping: 17,
                             }}
                           >
-                            <ButtonViewDark children="Voir l'offre" />
+                            <ButtonViewDark text="Voir l'offre" />
                           </motion.div>
                         </div>
                       </div>
@@ -653,7 +653,7 @@ function Acceuil() {
                               damping: 17,
                             }}
                           >
-                            <ButtonViewDark children="Voir l'offre" />
+                            <ButtonViewDark text="Voir l'offre" />
                           </motion.div>
                         </div>
                       </div>
@@ -694,7 +694,7 @@ function Acceuil() {
                               damping: 17,
                             }}
                           >
-                            <ButtonViewDark children="voir l'offre" />
+                            <ButtonViewDark text="voir l'offre" />
                           </motion.div>
                         </div>
                       </div>
