@@ -58,11 +58,11 @@ function SubNavbar() {
           <ul className="flex font-bold gap-x-[46px] px-[125px] py-[12px]">
             <li className="text-white  inline-block relative cursor-pointer bg-black transition-all duration-500 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-1.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-gradient-to-r before:from-blue-600 before:via-slate-400 before:to-white hover:before:w-full hover:before:opacity-100 ">
               {" "}
-              <Link href="/">Home & Personal</Link>
+              <Link href="/">Maison & Personnel</Link>
             </li>
 
             <li className="text-white inline-block relative cursor-pointer bg-black transition-all duration-500 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-1.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-gradient-to-r before:from-blue-600 before:via-slate-400 before:to-white hover:before:w-full hover:before:opacity-100 ">
-              <Link href="/pages/Smallbusiness">Small Business</Link>
+              <Link href="/pages/Smallbusiness">PME</Link>
             </li>
 
             <li className="text-white  inline-block relative cursor-pointer bg-black transition-all duration-500 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-1.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-gradient-to-r before:from-blue-600 before:via-slate-400 before:to-white hover:before:w-full hover:before:opacity-100 ">
@@ -83,20 +83,20 @@ function SubNavbar() {
                   className="cursor:pointer  hover:bg-black py-[8px] hover:text-white transition ease-in-out duration-200 w-[100px] flex items-center justify-center"
                   activeclassName="bg-black text-white"
                 >
-                  Products
+                  Produits
                 </li>
               </Link>
             </ButtonTap>
-            <ButtonTap>
+            {/**<ButtonTap>
               <Link href="">
                 <li
                   className="cursor:pointer hover:bg-black py-[8px] hover:text-white transition ease-in-out duration-200 w-[100px] flex items-center justify-center"
                   activeclassName="bg-black text-white"
                 >
-                  Compare
+                  Comparer
                 </li>
               </Link>
-            </ButtonTap>
+            </ButtonTap>**/}
             <ButtonTap>
               <Link href="">
                 <li

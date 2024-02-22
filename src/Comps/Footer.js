@@ -1,7 +1,7 @@
 import React from 'react'
 import logoblack from 'public/logo_black.png'
 import Image from 'next/image'
-import {FaFacebookSquare, FaTwitterSquare, FaInstagramSquare, FaWhatsappSquare} from 'react-icons/fa'
+import {FaFacebookF, FaTiktok, FaInstagram, FaLinkedinIn} from 'react-icons/fa'
 
 function Footer() {
   return (
@@ -17,21 +17,24 @@ function Footer() {
                 <p className='text-xl font-semibold flex justify-end'>BE Safe, Be Smart</p>
             </div>
             <div className='text-sm font-normal w-[493px]'>
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd</p>
+                <p>
+                    la sécurité de vos biens et proches, est réinventée avec nos technologie de pointe pour une sécurité sans compromis et intelligente à votre service.
+                    L'avenir de la sécurité est chez SAFER : Protégez votre monde avec intelligence.
+                </p>
             </div>
         </div>
         <div className='flex justify-between'>
             <div>
-                <h3 className='text-xl'>Follow us :</h3>
+                <h3 className='text-xl'>Suivez-nous :</h3>
                 <ul className='flex py-4 gap-x-4'>
-                    <li className='hover:bg-[#939598] transition ease-in-out duration-300 cursor-pointer rounded-xl p-2'><FaFacebookSquare color="black" fontSize="37" /></li>
-                    <li className='hover:bg-[#939598] transition ease-in-out duration-300 cursor-pointer rounded-xl p-2'><FaTwitterSquare color="black" fontSize="37" /></li>
-                    <li className='hover:bg-[#939598] transition ease-in-out duration-300 cursor-pointer rounded-xl p-2'><FaWhatsappSquare color="black" fontSize="37" /></li>
-                    <li className='hover:bg-[#939598] transition ease-in-out duration-300 cursor-pointer rounded-xl p-2'><FaInstagramSquare color="black" fontSize="37" /></li>
+                    <li className='hover:bg-white transition ease-in-out duration-300 cursor-pointer rounded-xl p-2'><FaFacebookF color="black" fontSize="37" /></li>
+                    <li className='hover:bg-white transition ease-in-out duration-300 cursor-pointer rounded-xl p-2'><FaTiktok color="black" fontSize="37" /></li>
+                    <li className='hover:bg-white transition ease-in-out duration-300 cursor-pointer rounded-xl p-2'><FaLinkedinIn color="black" fontSize="37" /></li>
+                    <li className='hover:bg-white transition ease-in-out duration-300 cursor-pointer rounded-xl p-2'><FaInstagram color="black" fontSize="37" /></li>
                 </ul>
             </div>
             <div>
-                <h3 className='text-xl font-bold pb-[20px]'>Product Categories</h3>
+                <h3 className='text-xl font-bold pb-[20px]'>Catégories de produits</h3>
                 <ul className='flex gap-y-[10px] flex-col '>
                     <li className='hover:text-[#939598] transition ease-in-out duration-300 cursor-pointer rounded-md py-2'>Home Security</li>
                     <li className='hover:text-[#939598] transition ease-in-out duration-300 cursor-pointer rounded-md py-2'>Smart Home Automation</li>
@@ -40,7 +43,7 @@ function Footer() {
                 </ul>
             </div>
             <div>
-                <h3 className='text-xl font-bold pb-[20px]'>Product Categories</h3>
+                <h3 className='text-xl font-bold pb-[20px]'>Nos offres</h3>
                 <ul className='flex  gap-y-[10px] flex-col '>
                     <li className='hover:text-[#939598] transition ease-in-out duration-300 cursor-pointer rounded-md py-2'>Home Security</li>
                     <li className='hover:text-[#939598] transition ease-in-out duration-300 cursor-pointer rounded-md py-2'>Smart Home Automation</li>
@@ -51,7 +54,7 @@ function Footer() {
                 </ul>
             </div>
             <div>
-                <h3 className='text-xl font-bold pb-[20px]'>Product Categories</h3>
+                <h3 className='text-xl font-bold pb-[20px]'>Nos Secteurs d'activités</h3>
                 <ul className='flex  gap-y-[10px] flex-col '>
                     <li className='hover:text-[#939598] transition ease-in-out duration-300 cursor-pointer rounded-md py-2'>Home Security</li>
                     <li className='hover:text-[#939598] transition ease-in-out duration-300 cursor-pointer rounded-md py-2'>Smart Home Automation</li>
@@ -62,7 +65,7 @@ function Footer() {
                 </ul>
             </div>
         </div>
-        <p className='text-center text-md font-semibold pt-[125px] pb-8'>© 2023 ADT. All rights reserved. The product/service names listed in this document are marks and/or registered marks of their respective owners and used under license. Unauthorized use strictly prohibited. Ptoducted by <span className='text-xl font-bold uppercase '>Kognitiv</span>.
+        <p className='text-center text-md font-semibold pt-[125px] pb-8'>Copyright © 2023 SafeR. Tous Droits Réservés. Mentions légales. Produit par <span className='text-xl font-bold uppercase '>Kognitiv</span>.
         </p>
     </footer>
   )
