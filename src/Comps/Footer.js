@@ -19,7 +19,7 @@ function Footer() {
             <div className='text-sm font-normal w-[493px]'>
                 <p>
                     la sécurité de vos biens et proches, est réinventée avec nos technologie de pointe pour une sécurité sans compromis et intelligente à votre service.
-                    L'avenir de la sécurité est chez SAFER : Protégez votre monde avec intelligence.
+                    L&apos;avenir de la sécurité est chez SAFER : Protégez votre monde avec intelligence.
                 </p>
             </div>
         </div>
@@ -54,7 +54,7 @@ function Footer() {
                 </ul>
             </div>
             <div>
-                <h3 className='text-xl font-bold pb-[20px]'>Nos Secteurs d'activités</h3>
+                <h3 className='text-xl font-bold pb-[20px]'>Nos Secteurs d&apos;activités</h3>
                 <ul className='flex  gap-y-[10px] flex-col '>
                     <li className='hover:text-[#939598] transition ease-in-out duration-300 cursor-pointer rounded-md py-2'>Home Security</li>
                     <li className='hover:text-[#939598] transition ease-in-out duration-300 cursor-pointer rounded-md py-2'>Smart Home Automation</li>

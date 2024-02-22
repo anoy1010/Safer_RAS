@@ -106,7 +106,7 @@ function Acceuil() {
                 </h1>
                 <p className="text-white font-normal">
                   SafeR est une entreprise leader de la sécurité résidentielle
-                  et personnelle en Côte d'Ivoire. Nous offrons une large gamme
+                  et personnelle en Côte d&apos;Ivoire. Nous offrons une large gamme
                   de solutions de sécurité pour protéger votre maison, votre
                   famille et vos biens.
                 </p>
@@ -139,7 +139,7 @@ function Acceuil() {
               transition={{ duration: 1, ease: "easeInOut", delay: 1 }}
               className="box"
             >
-              <Image src="/personnalsafer.jpg" width={600} height={600} />
+              <Image src="/personnalsafer.jpg" width={600} height={600} alt="personnalSafer"/>
             </motion.div>
           </section>
           <section className="bg-black">
@@ -167,12 +167,12 @@ function Acceuil() {
                 <div className="text-white  bg-[#4556F5] py-4 flex flex-col justify-around w-[400px] px-[60px]  gap-y-[14px]">
                   <h1 className="text-4xl font-semibold  ">Avec SafeR, </h1>
                   <h3 className="text-3xl">
-                    Dormez tranquille, quoi qu'il arrive.{" "}
+                    Dormez tranquille, quoi qu&apos;il arrive.{" "}
                   </h3>
                   <p>
                     Des solutions sur-mesure, une technologie de pointe et une
-                    intervention rapide : avec SafeR, profitez d'une sécurité
-                    optimale et d'une tranquillité d'esprit 24h/7 et 365 jours
+                    intervention rapide : avec SafeR, profitez d&apos;une sécurité
+                    optimale et d&apos;une tranquillité d&apos;esprit 24h/7 et 365 jours
                     par an.
                   </p>
                   <div className="flex justify-start">
@@ -193,7 +193,7 @@ function Acceuil() {
                 <div className="grid grid-cols-2 ">
                   <div className="bg-white flex px-[41px] justify-center items-center ring-2 ring-[#707070]">
                     <div>
-                      <Image src="/engrenages.png" width={80} height={80} />
+                      <Image src="/engrenages.png" width={80} height={80} alt="engrenage" />
                     </div>
                     <div className="px-4 flex flex-col gap-y-4">
                       <h2 className="font-bold text-3xl">
@@ -207,7 +207,7 @@ function Acceuil() {
                   </div>
                   <div className="bg-white flex px-[41px] justify-center items-center ring-2 ring-[#707070]">
                     <div>
-                      <Image src="/nouvelles-technologies.png" width={80} height={80} />
+                      <Image src="/nouvelles-technologies.png" width={80} height={80} alt="nouvelle technologies"/>
                     </div>
                     <div className="px-4 flex flex-col gap-y-4">
                       <h2 className="font-bold text-3xl">
@@ -221,7 +221,7 @@ function Acceuil() {
                   </div>
                   <div className="bg-white flex px-[41px] justify-center items-center ring-2 ring-[#707070]">
                     <div>
-                      <Image src="/eclat.png"width={80} height={80} />
+                      <Image src="/eclat.png"width={80} height={80} alt="eclat"/>
                     </div>
                     <div className="px-4 flex flex-col gap-y-4">
                       <h2 className="font-bold text-3xl">
@@ -235,14 +235,14 @@ function Acceuil() {
                   </div>
                   <div className="bg-white flex px-[41px] justify-center items-center ring-2 ring-[#707070]">
                     <div>
-                      <Image src="/mediter.png" width={80} height={80} />
+                      <Image src="/mediter.png" width={80} height={80} alt="méditer"/>
                     </div>
                     <div className="px-4 flex flex-col gap-y-4">
                       <h2 className="font-bold text-3xl">
-                        Tranquillité d'esprit
+                        Tranquillité d&apos;esprit
                       </h2>
                       <p className="w-[233px]">
-                        La certitude d'être protégé en permanence, quoi qu'il
+                        La certitude d&apos;être protégé en permanence, quoi qu&apos;il
                         arrive.
                       </p>
                     </div>
@@ -279,7 +279,7 @@ function Acceuil() {
                       </li>
                       <li className="flex gap-x-1">
                         <BsCheck2 className="text-3xl font-bold " />
-                        Alarme d'intrusion
+                        Alarme d&apos;intrusion
                       </li>
                       <li className="flex gap-x-1">
                         <BsCheck2 className="text-3xl font-bold " />
@@ -304,7 +304,7 @@ function Acceuil() {
               >
                 <div className="flex flex-col gap-y-4">
                   <div className="flex justify-start items-center p-4">
-                    <Image src="/megaphone.png" width={80} height={80} />
+                    <Image src="/megaphone.png" width={80} height={80} alt="mégaphone"/>
                   </div>
                   <div className="text-white flex flex-col gap-y-4 w-[200px]">
                     <h2 className="text-2xl font-bold">Intervention</h2>
@@ -319,7 +319,7 @@ function Acceuil() {
                       </li>
                       <li className="flex gap-x-1">
                         <BsCheck2 className="text-3xl font-bold " />
-                        intervention en cas d'incidents
+                        intervention en cas d&apos;incidents
                       </li>
                     </ul>
                   </div>
@@ -340,7 +340,7 @@ function Acceuil() {
               >
                 <div className="flex flex-col gap-y-4">
                   <div className="flex justify-start items-center p-4">
-                    <Image src="/sidentifier.png" width={80} height={80} />
+                    <Image src="/sidentifier.png" width={80} height={80} alt="sidentifier"/>
                   </div>
                   <div className="text-white flex flex-col gap-y-4 w-[200px]">
                     <h2 className="text-2xl font-bold">Protection des biens</h2>
@@ -376,7 +376,7 @@ function Acceuil() {
               >
                 <div className="flex flex-col gap-y-4">
                   <div className="flex justify-start items-center p-4">
-                    <Image src="/soutien.png" width={80} height={80} />
+                    <Image src="/soutien.png" width={80} height={80} alt=""/>
                   </div>
                   <div className="text-white flex flex-col gap-y-4 w-[200px]">
                     <h2 className="text-2xl font-bold">Conseils en sécurité</h2>
@@ -511,10 +511,9 @@ function Acceuil() {
               >
                 <div className="grid grid-cols-2 place-content-center place-items-center gap-x-4 ">
                   <div className="bg-white flex-col mx-12 px-8 ">
-                    <Image />
                     <div>
                       <div className="px-8">
-                        <Image src="/1.png" width={500} height={500} />
+                        <Image src="/1.png" width={500} height={500} alt="image du pack activ"/>
                         <div className="p-8 flex justify-center items-center">
                           <motion.div
                             className="box"
@@ -591,7 +590,7 @@ function Acceuil() {
                           Pack ZEN
                         </h2>
                         <p className="py-4">
-                        Protégez votre maison et vos proches avec le Pack Sécurité ZEN, une solution complète et personnalisable qui s'adapte à vos besoins.
+                        Protégez votre maison et vos proches avec le Pack Sécurité ZEN, une solution complète et personnalisable qui s&apos;adapte à vos besoins.
                         </p>
                         <div className="grid grid-cols-2 ">
                       <ul className="">
@@ -638,6 +637,7 @@ function Acceuil() {
                      src="/2.png"
                      width= {500}
                      height={500}
+                     alt="image du pack ZEN"
                     />
                     <div>
                       <div className="px-8">
@@ -674,13 +674,14 @@ function Acceuil() {
               >
                 <div className="grid grid-cols-2 place-content-center place-items-center gap-x-4 ">
                   <div className="bg-white flex-col mx-12 px-8 ">
-                    <Image />
+                    
                     <div>
                       <div className="px-8">
                         <Image 
                         src="/3.png"
                         width={500}
                         height={500}
+                        alt="image du pack HYPNOZI"
                         />
                         <div className="p-8 flex justify-center items-center">
                           <motion.div
@@ -702,10 +703,10 @@ function Acceuil() {
                   <div className="flex flex-col gap-y-8 mx-12 px-8 text-white">
                   <h2 className=" text-2xl font-extrabold py-8">
                           {" "}
-                          Pack HYPNOZ'{" "}
+                          Pack HYPNOZ&apos;{" "}
                         </h2>
                         <p className="py-4">
-                        Bien plus qu'une simple protection, une solution de sécurité haut de gamme et personnalisable qui s'adapte à vos besoins les plus exigeants.
+                        Bien plus qu&apos;une simple protection, une solution de sécurité haut de gamme et personnalisable qui s&apos;adapte à vos besoins les plus exigeants.
                         </p>
                         <div className="grid grid-cols-2">
                         <ul>
