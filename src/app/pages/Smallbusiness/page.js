@@ -263,7 +263,7 @@ function Smallbusiness() {
                         <a href="#">
                             <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Alarme intrusion</h5>
                         </a>
-                        <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">alerté en cas d&apos;intrusion dans les locaux de l&apos;entreprise et  Permet d'alerter une brigade d&apos;urgence en cas d'intrusion.</p>
+                        <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">alerté en cas d&apos;intrusion dans les locaux de l&apos;entreprise et  Permet d&apos;alerter une brigade d&apos;urgence en cas d&apos;intrusion.</p>
                         <a href="#" class="inline-flex items-center text-blue-600 hover:underline">
                             Plus d&apos;informations
                             <svg class="w-3 h-3 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
