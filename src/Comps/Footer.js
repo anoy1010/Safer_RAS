@@ -14,7 +14,7 @@ function Footer() {
                     height={108}
                     alt='Safer'
                 />
-                <p className='text-xl font-semibold flex justify-end'>BE Safe, Be Smart</p>
+                <p className='text-xl font-semibold flex justify-end'>Be Smart, Be Safe</p>
             </div>
             <div className='text-sm font-normal w-[493px]'>
                 <p>
@@ -36,10 +36,10 @@ function Footer() {
             <div>
                 <h3 className='text-xl font-bold pb-[20px]'>Catégories de produits</h3>
                 <ul className='flex gap-y-[10px] flex-col '>
-                    <li className='hover:text-[#939598] transition ease-in-out duration-300 cursor-pointer rounded-md py-2'>Home Security</li>
+                    <li className='hover:text-[#939598] transition ease-in-out duration-300 cursor-pointer rounded-md py-2'>Sécurité résidence</li>
                     <li className='hover:text-[#939598] transition ease-in-out duration-300 cursor-pointer rounded-md py-2'>Smart Home Automation</li>
-                    <li className='hover:text-[#939598] transition ease-in-out duration-300 cursor-pointer rounded-md py-2'>Security Cameras</li>
-                    <li className='hover:text-[#939598] transition ease-in-out duration-300 cursor-pointer rounded-md py-2'>Business Security</li>
+                    <li className='hover:text-[#939598] transition ease-in-out duration-300 cursor-pointer rounded-md py-2'>Caméra de sécurité </li>
+                    <li className='hover:text-[#939598] transition ease-in-out duration-300 cursor-pointer rounded-md py-2'>Sécurité business</li>
                 </ul>
             </div>
             <div>

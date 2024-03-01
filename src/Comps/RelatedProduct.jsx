@@ -6,7 +6,7 @@ const RelatedProduct = () => {
       <section className="py-8 bg-white sm:py-14 lg:py-18">
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
           <div className="max-w-md mx-auto text-center">
-            <h2 className="text-2xl font-bold text-gray-900 sm:text-3xl">
+            <h2 className="text-xl text-gray-900 sm:text-2xl">
               Notre gamme complète de produits électroniques de sécurité
             </h2>
             <p className="mt-4 text-base font-normal leading-7 text-gray-600">
