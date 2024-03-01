@@ -771,7 +771,8 @@ function Acceuil() {
                 variants={boxVariantscard}
                 transition={{ type: "spring", duration: 1, ease: "easeInOut" }}
                 className="box"
-              >
+    
+    >
                 <div className="flex flex-col gap-y-4  px-4 ">
                   <div className="flex justify-start items-center p-4">
                     <LiaEyeSolid className="w-24 h-24 text-white" />
