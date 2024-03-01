@@ -702,7 +702,7 @@ function Acceuil() {
             </div>
           </section>
           <section className="py-8  justify-center">
-            <Headtitle2 title="Votre sécurité, notre priorité"/>
+            <Headtitle2 title="Votre sécurité, notre priorité" />
             <div class="container my-8 mx-auto flex items-center justify-center md:px-6">
               <div class="block rounded-lg bg-white max-w-5xl shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
                 <div class="flex flex-wrap  items-center">
@@ -730,17 +730,16 @@ function Acceuil() {
                         <li>Les témoignages de clients satisfaits.</li>
                       </ul>
                       <motion.button
-                      whileHover={{ scale: 1.1 }}
-                      whileTap={{ scale: 0.9 }}
-                    >
-                      <button className="bg-black text-white px-4 py-2 rounded-xl">
-                        <p>commandez maintenant</p>
-                      </button>
-                    </motion.button>
+                        whileHover={{ scale: 1.1 }}
+                        whileTap={{ scale: 0.9 }}
+                      >
+                        <button className="bg-black text-white px-4 py-2 rounded-xl">
+                          <p>Commandez maintenant</p>
+                        </button>
+                      </motion.button>
                     </div>
                   </div>
                   <div>
-                   
                   </div>
                 </div>
               </div>
@@ -1001,7 +1000,6 @@ function Acceuil() {
             </div>
           </div>
         </section>**/}
-          
         </AnimatePresence>
       )}
     </>
