@@ -722,10 +722,10 @@ function Acceuil() {
                         Nous utilisons des technologie pour vous aider à garder
                         vos proches en sécurité tels que des alarmes
                         personnelles, des traceurs gps, des appareils connectés
-                        avec des fonctions de sécurité et bien d'autres.
+                        avec des fonctions de sécurité et bien d&apos;autres.
                       </p>
                       <ul className="list-disc">
-                        <li>La simplicité d'utilisation.</li>
+                        <li>La simplicité d&apos;utilisation.</li>
                         <li>Des fonctionnalités de sécurité avancées.</li>
                         <li>Les témoignages de clients satisfaits.</li>
                       </ul>
@@ -758,7 +758,7 @@ function Acceuil() {
               <p className="text-white max-w-4xl flex items-center justify-center">
                 SafeR propose une large gamme de services de sécurité adaptables
                 à vos besoins et à votre budget. Que vous soyez propriétaire
-                d'une maison, d'un appartement ou d'une entreprise, SafeR a la
+                d&apos;une maison, d&apos;un appartement ou d&apos;une entreprise, SafeR a la
                 solution parfaite pour vous protéger.
               </p>
             </motion.div>
